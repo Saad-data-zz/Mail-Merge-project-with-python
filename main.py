@@ -7,21 +7,7 @@
     #Hint2: This method will also help you: https://www.w3schools.com/python/ref_string_replace.asp
         #Hint3: THis method will help you: https://www.w3schools.com/python/ref_string_strip.asp
 
-# with open("Input/Letters/starting_letter.txt") as file:
-#     letter_format = file.read()
-#     #print(letter_format)
-#
-#
-# guest_list = ()
-# f = open("Input/Names/Invited_names.txt","r")
-# data = f.readlines()
-# #each_name =data.strip()
-# #each_name.append(guest_list)
-# print(data)
-#
-# # final_letter = letter_format.replace("[name]",each_name)
-# # with open("ang_letter.txt", "w") as letter:
-# #     content = letter.write("../../final_letter")
+
 PLACEHOLDER = "[name]"
 with open("Input/Names/Invited_names.txt") as names_file:
     names = names_file.readlines()
